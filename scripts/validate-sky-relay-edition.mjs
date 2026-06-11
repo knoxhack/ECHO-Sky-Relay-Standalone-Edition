@@ -8,6 +8,7 @@ const fail = (message) => { throw new Error(message); };
 const edition = manifest.runtimeTarget === 'echo_native' ? 'native' : manifest.runtimeTarget === 'neoforge' ? 'neoforge' : 'standalone';
 const requiredDocs = [
   'README.md',
+  'scripts/verify-manual-gameplay-evidence.mjs',
   'docs/install.md',
   'docs/update-flow.md',
   'docs/rollback.md',
