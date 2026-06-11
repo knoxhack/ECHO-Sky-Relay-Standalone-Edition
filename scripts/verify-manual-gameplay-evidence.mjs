@@ -58,6 +58,27 @@ const REQUIRED_GROUPS = {
   }
 };
 
+const NOTE_SECTION_REQUIREMENTS = [
+  {
+    pattern: /(^|\/)first[-_]?30[-_]?minutes[^/]*\.md$/iu,
+    sections: ['## Run Identity', '## Required Route Checks', '## Evidence Links', '## Notes']
+  },
+  {
+    pattern: /(^|\/)first[-_]?2[-_]?hours[^/]*\.md$/iu,
+    sections: ['## Run Identity', '## Required Route Checks', '## Evidence Links', '## Notes']
+  },
+  {
+    pattern: /(^|\/)signal[-_]?crown[^/]*\.md$/iu,
+    sections: ['## Run Identity', '## Required Completion Checks', '## Evidence Links', '## Notes']
+  },
+  {
+    pattern: /(^|\/)no[-_]?crash[^/]*\.md$/iu,
+    sections: ['## Reviewed Files', '## Required Checks', '## Reviewer Notes']
+  }
+];
+
+const BLANK_NOTE_FIELD = /^-\s+[^:\n]+:\s*$/gmu;
+
 function usage() {
   return `Usage: node scripts/verify-manual-gameplay-evidence.mjs [options]
 
@@ -194,6 +215,23 @@ function validateEvidenceShape({ root, manifest, evidence, label, expectedClaimV
   }
 }
 
+function validateMarkdownNote({ text, relPath, label, index, blockers }) {
+  if (text.includes(TEMPLATE_MARKER)) {
+    blockers.push(`${label}[${index}] target still contains template marker ${TEMPLATE_MARKER}: ${relPath}`);
+  }
+  const requirement = NOTE_SECTION_REQUIREMENTS.find((item) => item.pattern.test(normalizeRel(relPath)));
+  if (!requirement) return;
+  for (const section of requirement.sections) {
+    if (!text.includes(section)) {
+      blockers.push(`${label}[${index}] target is missing section ${section}: ${relPath}`);
+    }
+  }
+  if (BLANK_NOTE_FIELD.test(text)) {
+    blockers.push(`${label}[${index}] target still contains blank worksheet fields: ${relPath}`);
+  }
+  BLANK_NOTE_FIELD.lastIndex = 0;
+}
+
 async function validateRealFiles({ root, evidence, blockers }) {
   const checked = {};
   for (const group of Object.keys(REQUIRED_GROUPS)) checked[group] = [];
@@ -218,9 +256,7 @@ async function validateRealFiles({ root, evidence, blockers }) {
       };
       if (group === 'supportingFiles') {
         const text = await fs.readFile(resolved.target, 'utf8');
-        if (text.includes(TEMPLATE_MARKER)) {
-          blockers.push(`manualEvidence.${group}[${index}] target still contains template marker ${TEMPLATE_MARKER}: ${relPath}`);
-        }
+        validateMarkdownNote({ text, relPath, label: `manualEvidence.${group}`, index, blockers });
       }
       if (group === 'screenshots') {
         if (!(await fileStartsWith(resolved.target, [PNG_SIGNATURE]))) {
