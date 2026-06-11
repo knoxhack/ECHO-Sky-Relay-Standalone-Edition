@@ -1,0 +1,33 @@
+{
+  "schema": "echo.skyrelay.edition.harness_driver_manifest.v1",
+  "edition": "standalone",
+  "runtimeTarget": "echo_runtime_standalone",
+  "moduleId": "echoskyrelayprotocol",
+  "moduleVersion": "0.1.0",
+  "status": "template_blocked",
+  "artifactPattern": "echoskyrelayprotocol-0.1.0-standalone.jar",
+  "requiredReports": [
+    "evidence/standalone-runtime-execution-report.json",
+    "evidence/standalone-launcher-execution-report.json",
+    "evidence/standalone-first-30-minute-playthrough-report.json",
+    "evidence/standalone-first-2-hour-playthrough-report.json",
+    "evidence/standalone-signal-crown-completion-report.json",
+    "evidence/standalone-distribution-approval-report.json"
+  ],
+  "missingDriverSurfaces": [
+    "standalone_runtime_driver",
+    "fragment_anchor_driver",
+    "power_weather_driver",
+    "launcher_install_driver",
+    "repair_driver",
+    "rollback_driver",
+    "playthrough_capture_driver",
+    "distribution_approval_driver"
+  ],
+  "blockedBy": [
+    "real_standalone_runtime_harness_missing",
+    "real_launcher_harness_missing",
+    "real_playthrough_evidence_missing",
+    "public_artifacts_not_uploaded"
+  ]
+}
