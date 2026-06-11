@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+import crypto from 'node:crypto';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import process from 'node:process';
@@ -127,6 +128,10 @@ async function fileExists(filePath) {
   }
 }
 
+async function sha256File(filePath) {
+  return crypto.createHash('sha256').update(await fs.readFile(filePath)).digest('hex');
+}
+
 async function fileStartsWith(filePath, signatures) {
   const longest = Math.max(...signatures.map((signature) => signature.length));
   const handle = await fs.open(filePath, 'r');
@@ -200,10 +205,16 @@ async function validateRealFiles({ root, evidence, blockers }) {
         blockers.push(`manualEvidence.${group}[${index}] target does not exist: ${relPath}`);
         continue;
       }
-      if ((await fs.stat(resolved.target)).size < 1) {
+      const stat = await fs.stat(resolved.target);
+      if (stat.size < 1) {
         blockers.push(`manualEvidence.${group}[${index}] target must be at least 1 byte: ${relPath}`);
         continue;
       }
+      const record = {
+        path: normalizeRel(relPath),
+        size: stat.size,
+        sha256: await sha256File(resolved.target)
+      };
       if (group === 'screenshots') {
         if (!(await fileStartsWith(resolved.target, [PNG_SIGNATURE]))) {
           blockers.push(`manualEvidence.${group}[${index}] target is not a PNG file: ${relPath}`);
@@ -212,13 +223,15 @@ async function validateRealFiles({ root, evidence, blockers }) {
         const dimensions = await pngDimensions(resolved.target);
         if (!dimensions || dimensions.width < 640 || dimensions.height < 360) {
           blockers.push(`manualEvidence.${group}[${index}] PNG dimensions must be at least 640x360: ${relPath}`);
+          continue;
         }
+        record.dimensions = dimensions;
       }
       if (group === 'saveSnapshots' && !(await fileStartsWith(resolved.target, ZIP_SIGNATURES))) {
         blockers.push(`manualEvidence.${group}[${index}] target is not a ZIP file: ${relPath}`);
         continue;
       }
-      checked[group].push(normalizeRel(relPath));
+      checked[group].push(record);
     }
   }
   return checked;
