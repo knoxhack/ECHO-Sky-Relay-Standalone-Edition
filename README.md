@@ -15,3 +15,5 @@ Sky Relay Standalone Edition is the ECHO Standalone Runtime packaging lane for
 Implementation foundation only. Keep preview-only until standalone runtime loads
 Sky Relay data, assets, fragments, save/load, UI, and Signal Crown completion.
 
+Gameplay evidence must follow `docs/gameplay-evidence.md` and the template at
+`fixtures/sky-relay/gameplay-qa/manual-evidence.template.json`.

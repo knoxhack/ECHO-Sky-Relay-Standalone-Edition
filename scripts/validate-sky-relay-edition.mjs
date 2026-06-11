@@ -11,10 +11,12 @@ const requiredDocs = [
   'docs/install.md',
   'docs/update-flow.md',
   'docs/rollback.md',
+  'docs/gameplay-evidence.md',
   'docs/module-requirements.md',
   'docs/runtime-evidence.md',
   'docs/troubleshooting.md',
-  `evidence/${edition}-harness-driver-manifest.template.json`
+  `evidence/${edition}-harness-driver-manifest.template.json`,
+  'fixtures/sky-relay/gameplay-qa/manual-evidence.template.json'
 ];
 
 if (!manifest.packId?.startsWith('sky-relay-')) fail('packId must start with sky-relay-.');
