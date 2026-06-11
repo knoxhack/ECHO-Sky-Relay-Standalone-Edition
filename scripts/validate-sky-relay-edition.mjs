@@ -9,6 +9,7 @@ const edition = manifest.runtimeTarget === 'echo_native' ? 'native' : manifest.r
 const requiredDocs = [
   'README.md',
   'scripts/init-manual-gameplay-evidence.mjs',
+  'scripts/test-manual-gameplay-evidence-tools.mjs',
   'scripts/verify-manual-gameplay-evidence.mjs',
   'docs/install.md',
   'docs/update-flow.md',
