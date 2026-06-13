@@ -1,0 +1,127 @@
+{
+  "formatVersion": 2,
+  "pack": "sky-relay-standalone-edition",
+  "name": "Sky Relay Standalone Edition",
+  "version": "0.1.0",
+  "channel": "alpha",
+  "releasedAt": "2026-06-11T12:01:50.801Z",
+  "manifestAsset": "sky-relay-standalone-edition-alpha-0.1.0.pack.json",
+  "manifestSha256": "dc4a0b668a83ec9d00f7875ba67fc632cd326cd0fee576cf1ae4d0363095d913",
+  "artifactMode": "zip",
+  "artifactAsset": "sky-relay-standalone-edition-0.1.0.zip",
+  "artifactSha256": "93c7ae635467138c2b0e594d18de535ee7a25075e361e64c111b2505d84f8cf2",
+  "artifactSize": 40131817,
+  "packs": [
+    {
+      "pack": "sky-relay-standalone-edition",
+      "name": "Sky Relay Standalone Edition",
+      "version": "0.1.0",
+      "channel": "alpha",
+      "manifestAsset": "sky-relay-standalone-edition-alpha-0.1.0.pack.json",
+      "artifactAsset": "sky-relay-standalone-edition-0.1.0.zip"
+    }
+  ],
+  "assets": [
+    {
+      "name": "sky-relay-standalone-edition-alpha-0.1.0.pack.json",
+      "role": "pack-manifest",
+      "sha256": "dc4a0b668a83ec9d00f7875ba67fc632cd326cd0fee576cf1ae4d0363095d913",
+      "size": 10729
+    },
+    {
+      "name": "sky-relay-standalone-edition-0.1.0.zip",
+      "role": "pack-artifact",
+      "sha256": "93c7ae635467138c2b0e594d18de535ee7a25075e361e64c111b2505d84f8cf2",
+      "size": 40131817
+    },
+    {
+      "name": "echocore-1.0.0-standalone.jar",
+      "role": "pack-file",
+      "path": "mods/echocore-1.0.0-standalone.jar",
+      "sha256": "9b10d577bfe043492022eae683fa992355e9f21cf293c7caf0009ade3d43cab8",
+      "size": 361582
+    },
+    {
+      "name": "echoadaptercore-1.0.0-standalone.jar",
+      "role": "pack-file",
+      "path": "mods/echoadaptercore-1.0.0-standalone.jar",
+      "sha256": "48fe833ddaf1cb9da34e3923fa23b8e7645d0e00d6d19b6da6a85e728939d381",
+      "size": 946663
+    },
+    {
+      "name": "echonetcore-1.0.0-standalone.jar",
+      "role": "pack-file",
+      "path": "mods/echonetcore-1.0.0-standalone.jar",
+      "sha256": "bd155183464462d6af40f4b810cc8c68aa8c09eed37c9a01332d54de5ac30bea",
+      "size": 70690
+    },
+    {
+      "name": "echoruntimeguard-1.0.0-standalone.jar",
+      "role": "pack-file",
+      "path": "mods/echoruntimeguard-1.0.0-standalone.jar",
+      "sha256": "0ac4d9b8c71ef9ade344297303b3a52b1480c2d0d8c8c682879482b9840ccc35",
+      "size": 129581
+    },
+    {
+      "name": "echolens-1.0.0-standalone.jar",
+      "role": "pack-file",
+      "path": "mods/echolens-1.0.0-standalone.jar",
+      "sha256": "8eef6b58aa978085a5e706d20b634b848b362c8cd9383060652207bb2b9d5cd7",
+      "size": 219138
+    },
+    {
+      "name": "echoterminal-1.0.0-standalone.jar",
+      "role": "pack-file",
+      "path": "mods/echoterminal-1.0.0-standalone.jar",
+      "sha256": "f339b3cc6b5e5785c34f100b34046ca003621ce2118ccb4303645244b457c3a3",
+      "size": 23014861
+    },
+    {
+      "name": "echoholomap-1.0.0-standalone.jar",
+      "role": "pack-file",
+      "path": "mods/echoholomap-1.0.0-standalone.jar",
+      "sha256": "ec288047f70ca59f3a74cfbfdbd044e3bf16ae53f4b87ea642e35a8226c81217",
+      "size": 1500613
+    },
+    {
+      "name": "echopowergrid-1.0.0-standalone.jar",
+      "role": "pack-file",
+      "path": "mods/echopowergrid-1.0.0-standalone.jar",
+      "sha256": "288b2e234873de55c77b659aab40e955ef017bf5a01c6af1f095c16f23872a67",
+      "size": 7192307
+    },
+    {
+      "name": "echoweathercore-1.0.0-standalone.jar",
+      "role": "pack-file",
+      "path": "mods/echoweathercore-1.0.0-standalone.jar",
+      "sha256": "10e2a69a6004565c250e6feccab5ea1a5bd24bd430d1b0a319c140556a319cc9",
+      "size": 253106
+    },
+    {
+      "name": "echorecovery-1.3.0-standalone.jar",
+      "role": "pack-file",
+      "path": "mods/echorecovery-1.3.0-standalone.jar",
+      "sha256": "5229d7878eab6adec53fda128760a1c59cb1ee42063f03ea4871b8817d8df1cf",
+      "size": 2693617
+    },
+    {
+      "name": "echologisticsnetwork-1.0.0-standalone.jar",
+      "role": "pack-file",
+      "path": "mods/echologisticsnetwork-1.0.0-standalone.jar",
+      "sha256": "8a894f476d9d9d98adc45e8cb980288bfb5ac20ef61f9f1f65280d419b699553",
+      "size": 3681703
+    },
+    {
+      "name": "echoskyrelayprotocol-0.1.0-standalone.jar",
+      "role": "pack-file",
+      "path": "mods/echoskyrelayprotocol-0.1.0-standalone.jar",
+      "sha256": "461bab4a6a7208bf108a11c2b812b0987935ba30700b41a61c97c5000c8525d1",
+      "size": 53302
+    }
+  ],
+  "notes": [
+    "Sky Relay Standalone Edition alpha pack assembled from compiled ECHO modules.",
+    "Fresh installs use the verified full pack archive; module file checksums are pinned in the pack manifest.",
+    "This release remains draft-only until launcher and gameplay smoke evidence passes."
+  ]
+}
