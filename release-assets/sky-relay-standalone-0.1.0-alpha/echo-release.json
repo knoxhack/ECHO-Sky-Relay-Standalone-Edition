@@ -6,7 +6,7 @@
   "channel": "alpha",
   "releasedAt": "2026-06-11T12:01:50.801Z",
   "manifestAsset": "sky-relay-standalone-edition-alpha-0.1.0.pack.json",
-  "manifestSha256": "dc4a0b668a83ec9d00f7875ba67fc632cd326cd0fee576cf1ae4d0363095d913",
+  "manifestSha256": "5460d446188b5e12d9142fab0880ad0f1b94caee90eff02ae6962607cb89c16b",
   "artifactMode": "zip",
   "artifactAsset": "sky-relay-standalone-edition-0.1.0.zip",
   "artifactSha256": "93c7ae635467138c2b0e594d18de535ee7a25075e361e64c111b2505d84f8cf2",
@@ -25,8 +25,8 @@
     {
       "name": "sky-relay-standalone-edition-alpha-0.1.0.pack.json",
       "role": "pack-manifest",
-      "sha256": "dc4a0b668a83ec9d00f7875ba67fc632cd326cd0fee576cf1ae4d0363095d913",
-      "size": 10729
+      "sha256": "5460d446188b5e12d9142fab0880ad0f1b94caee90eff02ae6962607cb89c16b",
+      "size": 23715
     },
     {
       "name": "sky-relay-standalone-edition-0.1.0.zip",

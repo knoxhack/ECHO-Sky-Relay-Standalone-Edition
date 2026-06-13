@@ -9,19 +9,6 @@
   "moduleArtifactFamily": "standalone",
   "moduleRequirements": [
     {
-      "id": "echocore",
-      "moduleId": "echocore",
-      "version": "1.0.0",
-      "artifactFamily": "standalone",
-      "assetName": "echocore-1.0.0-standalone.jar",
-      "artifactName": "echocore-1.0.0-standalone.jar",
-      "path": "mods/echocore-1.0.0-standalone.jar",
-      "sha256": "9b10d577bfe043492022eae683fa992355e9f21cf293c7caf0009ade3d43cab8",
-      "size": 361582,
-      "required": true,
-      "side": "both"
-    },
-    {
       "id": "echoadaptercore",
       "moduleId": "echoadaptercore",
       "version": "1.0.0",
@@ -29,60 +16,131 @@
       "assetName": "echoadaptercore-1.0.0-standalone.jar",
       "artifactName": "echoadaptercore-1.0.0-standalone.jar",
       "path": "mods/echoadaptercore-1.0.0-standalone.jar",
+      "required": true,
+      "side": "both",
       "sha256": "48fe833ddaf1cb9da34e3923fa23b8e7645d0e00d6d19b6da6a85e728939d381",
-      "size": 946663,
+      "size": 946663
+    },
+    {
+      "id": "echoagriculturereclamation",
+      "moduleId": "echoagriculturereclamation",
+      "version": "1.0.0",
+      "artifactFamily": "standalone",
+      "assetName": "echoagriculturereclamation-1.0.0-standalone.jar",
+      "artifactName": "echoagriculturereclamation-1.0.0-standalone.jar",
+      "path": "mods/echoagriculturereclamation-1.0.0-standalone.jar",
       "required": true,
       "side": "both"
     },
     {
-      "id": "echonetcore",
-      "moduleId": "echonetcore",
+      "id": "echoassetcore",
+      "moduleId": "echoassetcore",
       "version": "1.0.0",
       "artifactFamily": "standalone",
-      "assetName": "echonetcore-1.0.0-standalone.jar",
-      "artifactName": "echonetcore-1.0.0-standalone.jar",
-      "path": "mods/echonetcore-1.0.0-standalone.jar",
-      "sha256": "bd155183464462d6af40f4b810cc8c68aa8c09eed37c9a01332d54de5ac30bea",
-      "size": 70690,
+      "assetName": "echoassetcore-1.0.0-standalone.jar",
+      "artifactName": "echoassetcore-1.0.0-standalone.jar",
+      "path": "mods/echoassetcore-1.0.0-standalone.jar",
       "required": true,
       "side": "both"
     },
     {
-      "id": "echoruntimeguard",
-      "moduleId": "echoruntimeguard",
+      "id": "echoatmospherecore",
+      "moduleId": "echoatmospherecore",
       "version": "1.0.0",
       "artifactFamily": "standalone",
-      "assetName": "echoruntimeguard-1.0.0-standalone.jar",
-      "artifactName": "echoruntimeguard-1.0.0-standalone.jar",
-      "path": "mods/echoruntimeguard-1.0.0-standalone.jar",
-      "sha256": "0ac4d9b8c71ef9ade344297303b3a52b1480c2d0d8c8c682879482b9840ccc35",
-      "size": 129581,
+      "assetName": "echoatmospherecore-1.0.0-standalone.jar",
+      "artifactName": "echoatmospherecore-1.0.0-standalone.jar",
+      "path": "mods/echoatmospherecore-1.0.0-standalone.jar",
       "required": true,
       "side": "both"
     },
     {
-      "id": "echolens",
-      "moduleId": "echolens",
+      "id": "echoblockworks",
+      "moduleId": "echoblockworks",
       "version": "1.0.0",
       "artifactFamily": "standalone",
-      "assetName": "echolens-1.0.0-standalone.jar",
-      "artifactName": "echolens-1.0.0-standalone.jar",
-      "path": "mods/echolens-1.0.0-standalone.jar",
-      "sha256": "8eef6b58aa978085a5e706d20b634b848b362c8cd9383060652207bb2b9d5cd7",
-      "size": 219138,
+      "assetName": "echoblockworks-1.0.0-standalone.jar",
+      "artifactName": "echoblockworks-1.0.0-standalone.jar",
+      "path": "mods/echoblockworks-1.0.0-standalone.jar",
       "required": true,
       "side": "both"
     },
     {
-      "id": "echoterminal",
-      "moduleId": "echoterminal",
+      "id": "echocameracore",
+      "moduleId": "echocameracore",
       "version": "1.0.0",
       "artifactFamily": "standalone",
-      "assetName": "echoterminal-1.0.0-standalone.jar",
-      "artifactName": "echoterminal-1.0.0-standalone.jar",
-      "path": "mods/echoterminal-1.0.0-standalone.jar",
-      "sha256": "f339b3cc6b5e5785c34f100b34046ca003621ce2118ccb4303645244b457c3a3",
-      "size": 23014861,
+      "assetName": "echocameracore-1.0.0-standalone.jar",
+      "artifactName": "echocameracore-1.0.0-standalone.jar",
+      "path": "mods/echocameracore-1.0.0-standalone.jar",
+      "required": true,
+      "side": "both"
+    },
+    {
+      "id": "echocommonloot",
+      "moduleId": "echocommonloot",
+      "version": "0.1.0",
+      "artifactFamily": "standalone",
+      "assetName": "echocommonloot-0.1.0-standalone.jar",
+      "artifactName": "echocommonloot-0.1.0-standalone.jar",
+      "path": "mods/echocommonloot-0.1.0-standalone.jar",
+      "required": true,
+      "side": "both"
+    },
+    {
+      "id": "echocontentcore",
+      "moduleId": "echocontentcore",
+      "version": "1.0.0",
+      "artifactFamily": "standalone",
+      "assetName": "echocontentcore-1.0.0-standalone.jar",
+      "artifactName": "echocontentcore-1.0.0-standalone.jar",
+      "path": "mods/echocontentcore-1.0.0-standalone.jar",
+      "required": true,
+      "side": "both"
+    },
+    {
+      "id": "echocore",
+      "moduleId": "echocore",
+      "version": "1.0.0",
+      "artifactFamily": "standalone",
+      "assetName": "echocore-1.0.0-standalone.jar",
+      "artifactName": "echocore-1.0.0-standalone.jar",
+      "path": "mods/echocore-1.0.0-standalone.jar",
+      "required": true,
+      "side": "both",
+      "sha256": "9b10d577bfe043492022eae683fa992355e9f21cf293c7caf0009ade3d43cab8",
+      "size": 361582
+    },
+    {
+      "id": "echocreatureroles",
+      "moduleId": "echocreatureroles",
+      "version": "0.1.0",
+      "artifactFamily": "standalone",
+      "assetName": "echocreatureroles-0.1.0-standalone.jar",
+      "artifactName": "echocreatureroles-0.1.0-standalone.jar",
+      "path": "mods/echocreatureroles-0.1.0-standalone.jar",
+      "required": true,
+      "side": "both"
+    },
+    {
+      "id": "echoeconomycore",
+      "moduleId": "echoeconomycore",
+      "version": "1.0.0",
+      "artifactFamily": "standalone",
+      "assetName": "echoeconomycore-1.0.0-standalone.jar",
+      "artifactName": "echoeconomycore-1.0.0-standalone.jar",
+      "path": "mods/echoeconomycore-1.0.0-standalone.jar",
+      "required": true,
+      "side": "both"
+    },
+    {
+      "id": "echofoundationcore",
+      "moduleId": "echofoundationcore",
+      "version": "0.1.0",
+      "artifactFamily": "standalone",
+      "assetName": "echofoundationcore-0.1.0-standalone.jar",
+      "artifactName": "echofoundationcore-0.1.0-standalone.jar",
+      "path": "mods/echofoundationcore-0.1.0-standalone.jar",
       "required": true,
       "side": "both"
     },
@@ -94,8 +152,135 @@
       "assetName": "echoholomap-1.0.0-standalone.jar",
       "artifactName": "echoholomap-1.0.0-standalone.jar",
       "path": "mods/echoholomap-1.0.0-standalone.jar",
+      "required": true,
+      "side": "both",
       "sha256": "ec288047f70ca59f3a74cfbfdbd044e3bf16ae53f4b87ea642e35a8226c81217",
-      "size": 1500613,
+      "size": 1500613
+    },
+    {
+      "id": "echohudcore",
+      "moduleId": "echohudcore",
+      "version": "1.0.0",
+      "artifactFamily": "standalone",
+      "assetName": "echohudcore-1.0.0-standalone.jar",
+      "artifactName": "echohudcore-1.0.0-standalone.jar",
+      "path": "mods/echohudcore-1.0.0-standalone.jar",
+      "required": true,
+      "side": "both"
+    },
+    {
+      "id": "echoindex",
+      "moduleId": "echoindex",
+      "version": "1.0.0",
+      "artifactFamily": "standalone",
+      "assetName": "echoindex-1.0.0-standalone.jar",
+      "artifactName": "echoindex-1.0.0-standalone.jar",
+      "path": "mods/echoindex-1.0.0-standalone.jar",
+      "required": true,
+      "side": "both"
+    },
+    {
+      "id": "echoindustrialnexus",
+      "moduleId": "echoindustrialnexus",
+      "version": "1.0.0",
+      "artifactFamily": "standalone",
+      "assetName": "echoindustrialnexus-1.0.0-standalone.jar",
+      "artifactName": "echoindustrialnexus-1.0.0-standalone.jar",
+      "path": "mods/echoindustrialnexus-1.0.0-standalone.jar",
+      "required": true,
+      "side": "both"
+    },
+    {
+      "id": "echolens",
+      "moduleId": "echolens",
+      "version": "1.0.0",
+      "artifactFamily": "standalone",
+      "assetName": "echolens-1.0.0-standalone.jar",
+      "artifactName": "echolens-1.0.0-standalone.jar",
+      "path": "mods/echolens-1.0.0-standalone.jar",
+      "required": true,
+      "side": "both",
+      "sha256": "8eef6b58aa978085a5e706d20b634b848b362c8cd9383060652207bb2b9d5cd7",
+      "size": 219138
+    },
+    {
+      "id": "echologisticsnetwork",
+      "moduleId": "echologisticsnetwork",
+      "version": "1.0.0",
+      "artifactFamily": "standalone",
+      "assetName": "echologisticsnetwork-1.0.0-standalone.jar",
+      "artifactName": "echologisticsnetwork-1.0.0-standalone.jar",
+      "path": "mods/echologisticsnetwork-1.0.0-standalone.jar",
+      "required": true,
+      "side": "both",
+      "sha256": "8a894f476d9d9d98adc45e8cb980288bfb5ac20ef61f9f1f65280d419b699553",
+      "size": 3681703
+    },
+    {
+      "id": "echomaterialcore",
+      "moduleId": "echomaterialcore",
+      "version": "0.1.0",
+      "artifactFamily": "standalone",
+      "assetName": "echomaterialcore-0.1.0-standalone.jar",
+      "artifactName": "echomaterialcore-0.1.0-standalone.jar",
+      "path": "mods/echomaterialcore-0.1.0-standalone.jar",
+      "required": true,
+      "side": "both"
+    },
+    {
+      "id": "echomissioncore",
+      "moduleId": "echomissioncore",
+      "version": "1.0.0",
+      "artifactFamily": "standalone",
+      "assetName": "echomissioncore-1.0.0-standalone.jar",
+      "artifactName": "echomissioncore-1.0.0-standalone.jar",
+      "path": "mods/echomissioncore-1.0.0-standalone.jar",
+      "required": true,
+      "side": "both"
+    },
+    {
+      "id": "echomultiblockcore",
+      "moduleId": "echomultiblockcore",
+      "version": "1.0.0",
+      "artifactFamily": "standalone",
+      "assetName": "echomultiblockcore-1.0.0-standalone.jar",
+      "artifactName": "echomultiblockcore-1.0.0-standalone.jar",
+      "path": "mods/echomultiblockcore-1.0.0-standalone.jar",
+      "required": true,
+      "side": "both"
+    },
+    {
+      "id": "echonetcore",
+      "moduleId": "echonetcore",
+      "version": "1.0.0",
+      "artifactFamily": "standalone",
+      "assetName": "echonetcore-1.0.0-standalone.jar",
+      "artifactName": "echonetcore-1.0.0-standalone.jar",
+      "path": "mods/echonetcore-1.0.0-standalone.jar",
+      "required": true,
+      "side": "both",
+      "sha256": "bd155183464462d6af40f4b810cc8c68aa8c09eed37c9a01332d54de5ac30bea",
+      "size": 70690
+    },
+    {
+      "id": "echoorbitalremnants",
+      "moduleId": "echoorbitalremnants",
+      "version": "1.0.0",
+      "artifactFamily": "standalone",
+      "assetName": "echoorbitalremnants-1.0.0-standalone.jar",
+      "artifactName": "echoorbitalremnants-1.0.0-standalone.jar",
+      "path": "mods/echoorbitalremnants-1.0.0-standalone.jar",
+      "required": true,
+      "side": "both"
+    },
+    {
+      "id": "echoplatformcore",
+      "moduleId": "echoplatformcore",
+      "version": "1.0.0",
+      "artifactFamily": "standalone",
+      "assetName": "echoplatformcore-1.0.0-standalone.jar",
+      "artifactName": "echoplatformcore-1.0.0-standalone.jar",
+      "path": "mods/echoplatformcore-1.0.0-standalone.jar",
       "required": true,
       "side": "both"
     },
@@ -107,21 +292,30 @@
       "assetName": "echopowergrid-1.0.0-standalone.jar",
       "artifactName": "echopowergrid-1.0.0-standalone.jar",
       "path": "mods/echopowergrid-1.0.0-standalone.jar",
+      "required": true,
+      "side": "both",
       "sha256": "288b2e234873de55c77b659aab40e955ef017bf5a01c6af1f095c16f23872a67",
-      "size": 7192307,
+      "size": 7192307
+    },
+    {
+      "id": "echoprogressioncore",
+      "moduleId": "echoprogressioncore",
+      "version": "1.0.0",
+      "artifactFamily": "standalone",
+      "assetName": "echoprogressioncore-1.0.0-standalone.jar",
+      "artifactName": "echoprogressioncore-1.0.0-standalone.jar",
+      "path": "mods/echoprogressioncore-1.0.0-standalone.jar",
       "required": true,
       "side": "both"
     },
     {
-      "id": "echoweathercore",
-      "moduleId": "echoweathercore",
+      "id": "echorecipecore",
+      "moduleId": "echorecipecore",
       "version": "1.0.0",
       "artifactFamily": "standalone",
-      "assetName": "echoweathercore-1.0.0-standalone.jar",
-      "artifactName": "echoweathercore-1.0.0-standalone.jar",
-      "path": "mods/echoweathercore-1.0.0-standalone.jar",
-      "sha256": "10e2a69a6004565c250e6feccab5ea1a5bd24bd430d1b0a319c140556a319cc9",
-      "size": 253106,
+      "assetName": "echorecipecore-1.0.0-standalone.jar",
+      "artifactName": "echorecipecore-1.0.0-standalone.jar",
+      "path": "mods/echorecipecore-1.0.0-standalone.jar",
       "required": true,
       "side": "both"
     },
@@ -133,21 +327,43 @@
       "assetName": "echorecovery-1.3.0-standalone.jar",
       "artifactName": "echorecovery-1.3.0-standalone.jar",
       "path": "mods/echorecovery-1.3.0-standalone.jar",
+      "required": true,
+      "side": "both",
       "sha256": "5229d7878eab6adec53fda128760a1c59cb1ee42063f03ea4871b8817d8df1cf",
-      "size": 2693617,
+      "size": 2693617
+    },
+    {
+      "id": "echoruntimeguard",
+      "moduleId": "echoruntimeguard",
+      "version": "1.0.0",
+      "artifactFamily": "standalone",
+      "assetName": "echoruntimeguard-1.0.0-standalone.jar",
+      "artifactName": "echoruntimeguard-1.0.0-standalone.jar",
+      "path": "mods/echoruntimeguard-1.0.0-standalone.jar",
+      "required": true,
+      "side": "both",
+      "sha256": "0ac4d9b8c71ef9ade344297303b3a52b1480c2d0d8c8c682879482b9840ccc35",
+      "size": 129581
+    },
+    {
+      "id": "echoschemacore",
+      "moduleId": "echoschemacore",
+      "version": "1.0.0",
+      "artifactFamily": "standalone",
+      "assetName": "echoschemacore-1.0.0-standalone.jar",
+      "artifactName": "echoschemacore-1.0.0-standalone.jar",
+      "path": "mods/echoschemacore-1.0.0-standalone.jar",
       "required": true,
       "side": "both"
     },
     {
-      "id": "echologisticsnetwork",
-      "moduleId": "echologisticsnetwork",
+      "id": "echoscreencore",
+      "moduleId": "echoscreencore",
       "version": "1.0.0",
       "artifactFamily": "standalone",
-      "assetName": "echologisticsnetwork-1.0.0-standalone.jar",
-      "artifactName": "echologisticsnetwork-1.0.0-standalone.jar",
-      "path": "mods/echologisticsnetwork-1.0.0-standalone.jar",
-      "sha256": "8a894f476d9d9d98adc45e8cb980288bfb5ac20ef61f9f1f65280d419b699553",
-      "size": 3681703,
+      "assetName": "echoscreencore-1.0.0-standalone.jar",
+      "artifactName": "echoscreencore-1.0.0-standalone.jar",
+      "path": "mods/echoscreencore-1.0.0-standalone.jar",
       "required": true,
       "side": "both"
     },
@@ -159,25 +375,181 @@
       "assetName": "echoskyrelayprotocol-0.1.0-standalone.jar",
       "artifactName": "echoskyrelayprotocol-0.1.0-standalone.jar",
       "path": "mods/echoskyrelayprotocol-0.1.0-standalone.jar",
+      "required": true,
+      "side": "both",
       "sha256": "461bab4a6a7208bf108a11c2b812b0987935ba30700b41a61c97c5000c8525d1",
-      "size": 53302,
+      "size": 53302
+    },
+    {
+      "id": "echosocialcore",
+      "moduleId": "echosocialcore",
+      "version": "1.0.0",
+      "artifactFamily": "standalone",
+      "assetName": "echosocialcore-1.0.0-standalone.jar",
+      "artifactName": "echosocialcore-1.0.0-standalone.jar",
+      "path": "mods/echosocialcore-1.0.0-standalone.jar",
+      "required": true,
+      "side": "both"
+    },
+    {
+      "id": "echosoundcore",
+      "moduleId": "echosoundcore",
+      "version": "1.0.0",
+      "artifactFamily": "standalone",
+      "assetName": "echosoundcore-1.0.0-standalone.jar",
+      "artifactName": "echosoundcore-1.0.0-standalone.jar",
+      "path": "mods/echosoundcore-1.0.0-standalone.jar",
+      "required": true,
+      "side": "both"
+    },
+    {
+      "id": "echostationcore",
+      "moduleId": "echostationcore",
+      "version": "0.1.0",
+      "artifactFamily": "standalone",
+      "assetName": "echostationcore-0.1.0-standalone.jar",
+      "artifactName": "echostationcore-0.1.0-standalone.jar",
+      "path": "mods/echostationcore-0.1.0-standalone.jar",
+      "required": true,
+      "side": "both"
+    },
+    {
+      "id": "echoterminal",
+      "moduleId": "echoterminal",
+      "version": "1.0.0",
+      "artifactFamily": "standalone",
+      "assetName": "echoterminal-1.0.0-standalone.jar",
+      "artifactName": "echoterminal-1.0.0-standalone.jar",
+      "path": "mods/echoterminal-1.0.0-standalone.jar",
+      "required": true,
+      "side": "both",
+      "sha256": "f339b3cc6b5e5785c34f100b34046ca003621ce2118ccb4303645244b457c3a3",
+      "size": 23014861
+    },
+    {
+      "id": "echothemecore",
+      "moduleId": "echothemecore",
+      "version": "1.3.0",
+      "artifactFamily": "standalone",
+      "assetName": "echothemecore-1.3.0-standalone.jar",
+      "artifactName": "echothemecore-1.3.0-standalone.jar",
+      "path": "mods/echothemecore-1.3.0-standalone.jar",
+      "required": true,
+      "side": "both"
+    },
+    {
+      "id": "echotoolcore",
+      "moduleId": "echotoolcore",
+      "version": "0.1.0",
+      "artifactFamily": "standalone",
+      "assetName": "echotoolcore-0.1.0-standalone.jar",
+      "artifactName": "echotoolcore-0.1.0-standalone.jar",
+      "path": "mods/echotoolcore-0.1.0-standalone.jar",
+      "required": true,
+      "side": "both"
+    },
+    {
+      "id": "echotutorialcore",
+      "moduleId": "echotutorialcore",
+      "version": "1.0.0",
+      "artifactFamily": "standalone",
+      "assetName": "echotutorialcore-1.0.0-standalone.jar",
+      "artifactName": "echotutorialcore-1.0.0-standalone.jar",
+      "path": "mods/echotutorialcore-1.0.0-standalone.jar",
+      "required": true,
+      "side": "both"
+    },
+    {
+      "id": "echovalidationcore",
+      "moduleId": "echovalidationcore",
+      "version": "1.0.0",
+      "artifactFamily": "standalone",
+      "assetName": "echovalidationcore-1.0.0-standalone.jar",
+      "artifactName": "echovalidationcore-1.0.0-standalone.jar",
+      "path": "mods/echovalidationcore-1.0.0-standalone.jar",
+      "required": true,
+      "side": "both"
+    },
+    {
+      "id": "echoweathercore",
+      "moduleId": "echoweathercore",
+      "version": "1.0.0",
+      "artifactFamily": "standalone",
+      "assetName": "echoweathercore-1.0.0-standalone.jar",
+      "artifactName": "echoweathercore-1.0.0-standalone.jar",
+      "path": "mods/echoweathercore-1.0.0-standalone.jar",
+      "required": true,
+      "side": "both",
+      "sha256": "10e2a69a6004565c250e6feccab5ea1a5bd24bd430d1b0a319c140556a319cc9",
+      "size": 253106
+    },
+    {
+      "id": "echoworldcore",
+      "moduleId": "echoworldcore",
+      "version": "1.0.0",
+      "artifactFamily": "standalone",
+      "assetName": "echoworldcore-1.0.0-standalone.jar",
+      "artifactName": "echoworldcore-1.0.0-standalone.jar",
+      "path": "mods/echoworldcore-1.0.0-standalone.jar",
+      "required": true,
+      "side": "both"
+    },
+    {
+      "id": "echoworldstarter",
+      "moduleId": "echoworldstarter",
+      "version": "0.1.0",
+      "artifactFamily": "standalone",
+      "assetName": "echoworldstarter-0.1.0-standalone.jar",
+      "artifactName": "echoworldstarter-0.1.0-standalone.jar",
+      "path": "mods/echoworldstarter-0.1.0-standalone.jar",
       "required": true,
       "side": "both"
     }
   ],
   "modules": [
-    "echocore",
     "echoadaptercore",
-    "echonetcore",
-    "echoruntimeguard",
-    "echolens",
-    "echoterminal",
+    "echoagriculturereclamation",
+    "echoassetcore",
+    "echoatmospherecore",
+    "echoblockworks",
+    "echocameracore",
+    "echocommonloot",
+    "echocontentcore",
+    "echocore",
+    "echocreatureroles",
+    "echoeconomycore",
+    "echofoundationcore",
     "echoholomap",
-    "echopowergrid",
-    "echoweathercore",
-    "echorecovery",
+    "echohudcore",
+    "echoindex",
+    "echoindustrialnexus",
+    "echolens",
     "echologisticsnetwork",
-    "echoskyrelayprotocol"
+    "echomaterialcore",
+    "echomissioncore",
+    "echomultiblockcore",
+    "echonetcore",
+    "echoorbitalremnants",
+    "echoplatformcore",
+    "echopowergrid",
+    "echoprogressioncore",
+    "echorecipecore",
+    "echorecovery",
+    "echoruntimeguard",
+    "echoschemacore",
+    "echoscreencore",
+    "echoskyrelayprotocol",
+    "echosocialcore",
+    "echosoundcore",
+    "echostationcore",
+    "echoterminal",
+    "echothemecore",
+    "echotoolcore",
+    "echotutorialcore",
+    "echovalidationcore",
+    "echoweathercore",
+    "echoworldcore",
+    "echoworldstarter"
   ],
   "files": [
     {
@@ -187,7 +559,8 @@
       "size": 361582,
       "required": true,
       "moduleId": "echocore",
-      "side": "both"
+      "side": "both",
+      "artifactName": "echocore-1.0.0-standalone.jar"
     },
     {
       "path": "mods/echoadaptercore-1.0.0-standalone.jar",
@@ -196,7 +569,8 @@
       "size": 946663,
       "required": true,
       "moduleId": "echoadaptercore",
-      "side": "both"
+      "side": "both",
+      "artifactName": "echoadaptercore-1.0.0-standalone.jar"
     },
     {
       "path": "mods/echonetcore-1.0.0-standalone.jar",
@@ -205,7 +579,8 @@
       "size": 70690,
       "required": true,
       "moduleId": "echonetcore",
-      "side": "both"
+      "side": "both",
+      "artifactName": "echonetcore-1.0.0-standalone.jar"
     },
     {
       "path": "mods/echoruntimeguard-1.0.0-standalone.jar",
@@ -214,7 +589,8 @@
       "size": 129581,
       "required": true,
       "moduleId": "echoruntimeguard",
-      "side": "both"
+      "side": "both",
+      "artifactName": "echoruntimeguard-1.0.0-standalone.jar"
     },
     {
       "path": "mods/echolens-1.0.0-standalone.jar",
@@ -223,7 +599,8 @@
       "size": 219138,
       "required": true,
       "moduleId": "echolens",
-      "side": "both"
+      "side": "both",
+      "artifactName": "echolens-1.0.0-standalone.jar"
     },
     {
       "path": "mods/echoterminal-1.0.0-standalone.jar",
@@ -232,7 +609,8 @@
       "size": 23014861,
       "required": true,
       "moduleId": "echoterminal",
-      "side": "both"
+      "side": "both",
+      "artifactName": "echoterminal-1.0.0-standalone.jar"
     },
     {
       "path": "mods/echoholomap-1.0.0-standalone.jar",
@@ -241,7 +619,8 @@
       "size": 1500613,
       "required": true,
       "moduleId": "echoholomap",
-      "side": "both"
+      "side": "both",
+      "artifactName": "echoholomap-1.0.0-standalone.jar"
     },
     {
       "path": "mods/echopowergrid-1.0.0-standalone.jar",
@@ -250,7 +629,8 @@
       "size": 7192307,
       "required": true,
       "moduleId": "echopowergrid",
-      "side": "both"
+      "side": "both",
+      "artifactName": "echopowergrid-1.0.0-standalone.jar"
     },
     {
       "path": "mods/echoweathercore-1.0.0-standalone.jar",
@@ -259,7 +639,8 @@
       "size": 253106,
       "required": true,
       "moduleId": "echoweathercore",
-      "side": "both"
+      "side": "both",
+      "artifactName": "echoweathercore-1.0.0-standalone.jar"
     },
     {
       "path": "mods/echorecovery-1.3.0-standalone.jar",
@@ -268,7 +649,8 @@
       "size": 2693617,
       "required": true,
       "moduleId": "echorecovery",
-      "side": "both"
+      "side": "both",
+      "artifactName": "echorecovery-1.3.0-standalone.jar"
     },
     {
       "path": "mods/echologisticsnetwork-1.0.0-standalone.jar",
@@ -277,7 +659,8 @@
       "size": 3681703,
       "required": true,
       "moduleId": "echologisticsnetwork",
-      "side": "both"
+      "side": "both",
+      "artifactName": "echologisticsnetwork-1.0.0-standalone.jar"
     },
     {
       "path": "mods/echoskyrelayprotocol-0.1.0-standalone.jar",
@@ -286,7 +669,8 @@
       "size": 53302,
       "required": true,
       "moduleId": "echoskyrelayprotocol",
-      "side": "both"
+      "side": "both",
+      "artifactName": "echoskyrelayprotocol-0.1.0-standalone.jar"
     }
   ],
   "runtime": {
