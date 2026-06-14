@@ -1,4 +1,3 @@
-0dc9c8a82827eda3e73037a36b2a0dc70368f045acdda00e6126065c42dce319  sky-relay-pack-build-report.json
-93c7ae635467138c2b0e594d18de535ee7a25075e361e64c111b2505d84f8cf2  sky-relay-standalone-edition-0.1.0.zip
-b6a4167833f41e9a2b4cb6f69422ba2b6e3cfe0fdac5a3c076af0192e7dc0e6e  echo-release.json
-5460d446188b5e12d9142fab0880ad0f1b94caee90eff02ae6962607cb89c16b  sky-relay-standalone-edition-alpha-0.1.0.pack.json
+4681b76bca19017f95f0ecd284bebd9b0637cba9a46ce1244d71a3a3d2205aab  sky-relay-standalone-edition-alpha-0.1.0.pack.json
+ea6b7912989cd1887f5360a87721537d904f1e524a5ce0bb8f35ffa4cb0e0ca3  sky-relay-standalone-edition-0.1.0.zip
+4a57f0444a3053068548e855f578f97e7db1ae600aacce48efe80da57cc5c423  echo-release.json
