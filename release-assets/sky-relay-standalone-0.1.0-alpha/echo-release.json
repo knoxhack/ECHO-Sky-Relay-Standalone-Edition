@@ -4,14 +4,14 @@
   "name": "Sky Relay Standalone Edition",
   "version": "0.1.0",
   "channel": "alpha",
-  "releasedAt": "2026-06-16T00:34:27.034Z",
+  "releasedAt": "2026-06-16T01:23:22.360Z",
   "manifestAsset": "sky-relay-standalone-edition-alpha-0.1.0.pack.json",
-  "manifestSha256": "b59a3bb5ad9e3c170566751f81cc88e939da840f4817a0108591827ea1ed1a25",
-  "manifestSize": 55426,
+  "manifestSha256": "1b487b6aad46d1f8335edf73d601b7861d22442393ecc943895d86974ee42329",
+  "manifestSize": 57144,
   "artifactMode": "zip",
   "artifactAsset": "sky-relay-standalone-edition-0.1.0.zip",
-  "artifactSha256": "35ccb3122cacdd6f6387b28eab0cc4465b4ea164f3202081059432555e8edc66",
-  "artifactSize": 157500157,
+  "artifactSha256": "0626515ed12dd57acd4668cb7686e8eaa82860dacb59e62a8f26de7b2d1afc98",
+  "artifactSize": 155201795,
   "moduleRelease": "release-index-current-module-artifacts-20260616",
   "packs": [
     {
@@ -27,21 +27,21 @@
     {
       "name": "sky-relay-standalone-edition-alpha-0.1.0.pack.json",
       "role": "pack-manifest",
-      "sha256": "b59a3bb5ad9e3c170566751f81cc88e939da840f4817a0108591827ea1ed1a25",
-      "size": 57166
+      "sha256": "1b487b6aad46d1f8335edf73d601b7861d22442393ecc943895d86974ee42329",
+      "size": 57144
     },
     {
       "name": "sky-relay-standalone-edition-0.1.0.zip",
       "role": "pack-artifact",
-      "sha256": "35ccb3122cacdd6f6387b28eab0cc4465b4ea164f3202081059432555e8edc66",
-      "size": 157500157
+      "sha256": "0626515ed12dd57acd4668cb7686e8eaa82860dacb59e62a8f26de7b2d1afc98",
+      "size": 155201795
     },
     {
       "name": "echoadaptercore-1.0.0-standalone.jar",
       "role": "pack-file",
       "path": "mods/echoadaptercore-1.0.0-standalone.jar",
-      "sha256": "58172c454a08644d794b0d4a29d1a7b5bab8651c6657006a8caa091fbf308188",
-      "size": 957538
+      "sha256": "06e762775bab4ae85178d8ce8af4ad0065fb95aa033841c8290d9b756b84fb21",
+      "size": 970532
     },
     {
       "name": "echoagriculturereclamation-1.0.0-standalone.jar",

@@ -18,9 +18,9 @@
       "path": "mods/echoadaptercore-1.0.0-standalone.jar",
       "required": true,
       "side": "both",
-      "sha256": "58172c454a08644d794b0d4a29d1a7b5bab8651c6657006a8caa091fbf308188",
-      "size": 957538,
-      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-content-graph-evidence-proof-20260615/echoadaptercore-1.0.0-standalone.jar"
+      "sha256": "06e762775bab4ae85178d8ce8af4ad0065fb95aa033841c8290d9b756b84fb21",
+      "size": 970532,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/adaptercore-receipt-spine-20260616/echoadaptercore-1.0.0-standalone.jar"
     },
     {
       "id": "echoagriculturereclamation",
@@ -667,9 +667,9 @@
       "path": "mods/echoadaptercore-1.0.0-standalone.jar",
       "required": true,
       "side": "both",
-      "sha256": "58172c454a08644d794b0d4a29d1a7b5bab8651c6657006a8caa091fbf308188",
-      "size": 957538,
-      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/modules-content-graph-evidence-proof-20260615/echoadaptercore-1.0.0-standalone.jar"
+      "sha256": "06e762775bab4ae85178d8ce8af4ad0065fb95aa033841c8290d9b756b84fb21",
+      "size": 970532,
+      "url": "https://github.com/knoxhack/ECHO-Modules/releases/download/adaptercore-receipt-spine-20260616/echoadaptercore-1.0.0-standalone.jar"
     },
     {
       "id": "echoagriculturereclamation",
@@ -1279,12 +1279,12 @@
   "loader": "echo-standalone-runtime",
   "id": "sky-relay-standalone-edition",
   "artifactUrl": "https://github.com/knoxhack/ECHO-Sky-Relay-Standalone-Edition/releases/download/sky-relay-standalone-0.1.0-alpha/sky-relay-standalone-edition-0.1.0.zip",
-  "updatedAt": "2026-06-14T00:30:54.750Z",
+  "updatedAt": "2026-06-16T01:23:16.421Z",
   "generatedBy": "scripts/rebuild-official-modpack-assets",
   "validation": "approved",
   "manifestAsset": "sky-relay-standalone-edition-alpha-0.1.0.pack.json",
   "moduleRelease": "release-index-current-module-artifacts-20260616",
   "moduleSourceRevision": "ECHO-Release-Index modules/*.json current artifacts, 2026-06-16",
-  "artifactSha256": "35ccb3122cacdd6f6387b28eab0cc4465b4ea164f3202081059432555e8edc66",
-  "artifactSize": 157500157
+  "artifactSha256": "0626515ed12dd57acd4668cb7686e8eaa82860dacb59e62a8f26de7b2d1afc98",
+  "artifactSize": 155201795
 }
