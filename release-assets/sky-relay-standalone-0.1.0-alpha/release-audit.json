@@ -12,13 +12,13 @@
   "moduleCount": 43,
   "artifact": {
     "name": "sky-relay-standalone-edition-0.1.0.zip",
-    "sha256": "0626515ed12dd57acd4668cb7686e8eaa82860dacb59e62a8f26de7b2d1afc98",
-    "size": 155201795
+    "sha256": "696f0584ee514c2a8cfc41d71727ec4de9142f2a344c3426d8a836f3bed392b4",
+    "size": 155200083
   },
   "manifest": {
     "name": "sky-relay-standalone-edition-alpha-0.1.0.pack.json",
-    "sha256": "1b487b6aad46d1f8335edf73d601b7861d22442393ecc943895d86974ee42329",
-    "size": 57144
+    "sha256": "adebecc3bbccd2c2b9aabcd37ed5112f8adcf9b0af7f382b5d88afaecd84b654",
+    "size": 56908
   },
-  "generatedAt": "2026-06-16T01:23:22.359Z"
+  "generatedAt": "2026-06-16T02:22:03.382Z"
 }
