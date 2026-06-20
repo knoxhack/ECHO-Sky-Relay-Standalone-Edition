@@ -1,0 +1,4 @@
+9504c2fc33b57c4392bdc83b35d907c96bc9d8fef92b9e2e7a429faf3f49b4f2  echo-release.json
+332494ac38afebff6386a1459c316b3a33d6243ebc7583e78fb93309a26b2639  release-audit.json
+d74dd96c0e78edaf895d47095c3f0bf24f0f4ef8ab61f783ade95a08ba38bcaa  sky-relay-standalone-edition-0.1.2.zip
+40cabed36da48e264e8ae1b39196897a7dd671a6efe5c69474ffc9c1cdf45410  sky-relay-standalone-edition-beta-0.1.2.pack.json
